@@ -20,7 +20,7 @@ html, body {
 
 header {
     background-color: #1a2a44;
-    padding: 1rem;
+    padding: 1rem 2rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,20 +38,21 @@ header {
 }
 
 .logo img {
-    width: 100px;
+    width: 120px;
     max-width: 100%;
+    margin-right: 0.5rem;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 nav ul li a:hover {
@@ -59,7 +60,7 @@ nav ul li a:hover {
 }
 
 .contact-info {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
 }
 
 .services-section {
@@ -531,13 +532,6 @@ footer {
         font-size: 1.2rem;
     }
 }
-
-
-
-
-
-
-
 .team {
     padding: 5rem 2rem;
     background-color: #f0faff;
@@ -679,8 +673,6 @@ footer {
         height: 20px;
     }
 }
-
-
 .content-kgz {
     display: flex;
     align-items: center;
@@ -707,9 +699,6 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
 }
-
-
-
 .text-kgz {
     flex: 1;
     font-size: 20px;
@@ -761,11 +750,6 @@ footer {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-
-
-
-
-
 @media (max-width: 900px) {
     .content {
         flex-direction: column;
@@ -789,5 +773,3 @@ footer {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-
-
